@@ -1,0 +1,13 @@
+[user]
+	email = {{ .email | quote }}
+	name = {{ .name | quote }}
+[pull]
+	rebase = false
+[core]
+	editor = code -w
+	autocrlf = false
+	filemode = false
+[init]
+	defaultBranch = main
+[http]
+	cookiefile = /home/mohamed/.gitcookies
